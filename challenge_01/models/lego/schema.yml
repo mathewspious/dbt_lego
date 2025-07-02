@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: lego
+    description: "A model for Lego data"
+    columns:
+      - name: theme_name
+        data_tests:
+          - not_null
+      - name: set_name
+        data_tests:
+          - not_null
+      - name: set_year
+        data_tests:
+          - not_null    
